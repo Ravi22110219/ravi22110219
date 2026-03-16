@@ -10,10 +10,10 @@ I developed **MobiResQ**, a platform that integrates **flood risk prediction and
 
 # 🌐 Socials
 
-[![Bluesky](https://img.shields.io/badge/bluesky-0285FF?style=for-the-badge&logo=bluesky&logoColor=white)](https://bsky.app/profile/Ravi2211021)  
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ravi-kumawat-99300b256)  
 [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://youtube.com/@ravikumawat23)  
-[![Mastodon](https://img.shields.io/badge/Mastodon-%232B90D9?style=for-the-badge&logo=mastodon&logoColor=white)](https://mastodon.social/@Ravi%20Kumawat)  
+
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ravi.kumawat@iitgn.ac.in)
 
 ---
