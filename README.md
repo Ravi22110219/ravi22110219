@@ -1,6 +1,6 @@
 # 💫 About Me
 
-I am **Ravi Kumawat**, a **Civil Engineering student at IIT Gandhinagar** and a **Full Stack Developer working with AIResQ and MIR Lab**.  
+I am **Ravi Kumawat**, a **BTech Student  at IIT Gandhinagar** and a **Full Stack Developer working with AIResQ and MIR Lab**.  
 
 I build technology solutions focused on **urban resilience**, particularly in **flood prediction, traffic analysis, and smart mobility systems**.
 
