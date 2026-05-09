@@ -1,10 +1,11 @@
 # 💫 About Me
 
-I am **Ravi Kumawat**, a **BTech Student  at IIT Gandhinagar** and a **Full Stack Developer working with AIResQ and MIR Lab**.  
+I am **Ravi Kumawat**, a BTech graduate from IIT Gandhinagar and a Full Stack Developer working with **AIResQ Climsols Pvt. Ltd.**.
 
-I build technology solutions focused on **urban resilience**, particularly in **flood prediction, traffic analysis, and smart mobility systems**.
+I build technology solutions focused on urban resilience, particularly in flood prediction, traffic analysis, and smart mobility systems.
 
-I developed **MobiResQ**, a platform that integrates **flood risk prediction and traffic data** to help users navigate **safer and more efficient routes during extreme conditions**.
+I was working with **MIR Lab** on mobility, a platform that integrates flood risk prediction and traffic data to help users navigate safer and more efficient routes during extreme conditions.
+
 
 ---
 
