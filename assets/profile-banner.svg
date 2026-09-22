@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+  <title id="title">Ravi Kumawat</title>
+  <desc id="desc">Full-stack developer building intelligent systems for resilient cities</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#061014"/><stop offset="1" stop-color="#0b2228"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#73e8ff"/><stop offset="1" stop-color="#b9ff66"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop stop-color="#73e8ff" stop-opacity=".28"/><stop offset="1" stop-color="#73e8ff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#73e8ff" stroke-opacity=".07"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="330" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="330" rx="24" fill="url(#grid)"/>
+  <circle cx="955" cy="165" r="190" fill="url(#glow)" filter="url(#soft)"/>
+  <g fill="none" stroke="#73e8ff" stroke-opacity=".25">
+    <ellipse cx="970" cy="164" rx="172" ry="69" transform="rotate(-16 970 164)"/>
+    <ellipse cx="970" cy="164" rx="132" ry="150" transform="rotate(34 970 164)"/>
+    <path d="M746 257c53-65 84-114 146-107 66 7 88 75 176 56 47-10 75-45 113-91"/>
+  </g>
+  <g fill="#b9ff66">
+    <circle cx="808" cy="196" r="5"/><circle cx="1006" cy="50" r="4"/><circle cx="1111" cy="174" r="5"/>
+  </g>
+  <path d="M70 71h62" stroke="url(#signal)" stroke-width="3"/>
+  <text x="70" y="154" fill="#edf7f7" font-family="Arial, sans-serif" font-size="72" font-weight="700" letter-spacing="-3">Ravi Kumawat</text>
+  <text x="73" y="199" fill="#9fb3b7" font-family="monospace" font-size="18" letter-spacing="2">FULL-STACK DEVELOPER · URBAN RESILIENCE</text>
+  <text x="73" y="251" fill="#b9ff66" font-family="Arial, sans-serif" font-size="22">Building intelligent systems for safer cities.</text>
+  <rect x="1" y="1" width="1198" height="328" rx="23" fill="none" stroke="#73e8ff" stroke-opacity=".16" stroke-width="2"/>
+</svg>
+

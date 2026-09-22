@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Ravi Kumawat is a full-stack developer building technology for urban resilience, flood prediction, traffic analysis, and smart mobility."
+    />
+    <meta name="theme-color" content="#061014" />
+    <meta property="og:title" content="Ravi Kumawat — Full-Stack Developer" />
+    <meta
+      property="og:description"
+      content="Building intelligent systems for safer, more resilient cities."
+    />
+    <meta property="og:image" content="assets/ravi-kumawat.png" />
+    <meta property="og:type" content="website" />
+    <title>Ravi Kumawat — Full-Stack Developer</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+    <link rel="stylesheet" href="styles.css" />
+    <script>
+      document.documentElement.classList.remove("no-js");
+      document.documentElement.classList.add("js");
+      if (new URLSearchParams(window.location.search).has("preview")) {
+        document.documentElement.classList.add("preview-mode");
+      }
+      window.addEventListener("load", () => {
+        window.setTimeout(() => {
+          const loader = document.querySelector(".site-loader");
+          if (loader) loader.classList.add("is-hidden");
+        }, 900);
+      });
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <div class="site-loader" aria-hidden="true">
+      <div class="loader-mark">RK</div>
+      <div class="loader-track"><span></span></div>
+      <p>Mapping the journey</p>
+    </div>
+
+    <canvas id="experience" aria-hidden="true"></canvas>
+    <div class="scene-vignette" aria-hidden="true"></div>
+    <div class="noise" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Ravi Kumawat, back to top">
+        <span class="brand-mark">RK</span>
+        <span class="brand-copy">Ravi<br />Kumawat</span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#work">Focus</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="effects-toggle" type="button" aria-pressed="false">
+        <span class="status-dot"></span>
+        <span class="effects-label">Full effects</span>
+      </button>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span>
+        <span class="sr-only">Open navigation</span>
+      </button>
+    </header>
+
+    <div id="mobile-menu" class="mobile-menu" aria-hidden="true">
+      <nav aria-label="Mobile navigation">
+        <a href="#about"><span>01</span>About</a>
+        <a href="#work"><span>02</span>Focus</a>
+        <a href="#skills"><span>03</span>Skills</a>
+        <a href="#contact"><span>04</span>Contact</a>
+      </nav>
+    </div>
+
+    <div class="chapter-progress" aria-hidden="true">
+      <span class="chapter-current">01</span>
+      <span class="chapter-line"><i></i></span>
+      <span class="chapter-total">05</span>
+    </div>
+
+    <main id="main-content">
+      <section id="home" class="panel hero" data-chapter="01">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span></span> Full-stack developer · Urban resilience</p>
+          <h1>
+            I build systems<br />
+            for <em>safer cities.</em>
+          </h1>
+          <p class="hero-intro">
+            I'm Ravi Kumawat—an IIT Gandhinagar graduate creating technology across flood
+            prediction, traffic intelligence, and smart mobility.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">
+              Explore my focus
+              <span aria-hidden="true">↘</span>
+            </a>
+            <a class="button button-quiet" href="mailto:ravi.kumawat@iitgn.ac.in">
+              Start a conversation
+            </a>
+          </div>
+        </div>
+
+        <div class="portrait-stage reveal" data-tilt>
+          <div class="orbit orbit-one" aria-hidden="true"></div>
+          <div class="orbit orbit-two" aria-hidden="true"></div>
+          <div class="portrait-card">
+            <img
+              src="assets/ravi-kumawat.png"
+              alt="Ravi Kumawat wearing a dark suit outdoors"
+              width="800"
+              height="800"
+              fetchpriority="high"
+            />
+            <div class="portrait-shade" aria-hidden="true"></div>
+            <div class="portrait-label">
+              <span>Based in India</span>
+              <span>IIT Gandhinagar</span>
+            </div>
+          </div>
+          <div class="floating-tag tag-one">AI × GIS</div>
+          <div class="floating-tag tag-two">Full stack</div>
+        </div>
+
+        <a class="scroll-cue" href="#about">
+          <span>Scroll to explore</span>
+          <i aria-hidden="true"></i>
+        </a>
+      </section>
+
+      <section id="about" class="panel content-panel about" data-chapter="02">
+        <div class="section-index reveal">01 / About</div>
+        <div class="section-grid">
+          <h2 class="section-title reveal">
+            Technology that reads<br />
+            the <em>real world.</em>
+          </h2>
+          <div class="section-copy reveal">
+            <p class="lead">
+              I am a BTech graduate from IIT Gandhinagar and a Full Stack Developer at
+              <strong>AIResQ Climsols Pvt. Ltd.</strong>
+            </p>
+            <p>
+              My work sits where software, data, and urban systems meet. I build practical
+              tools that help understand risk, movement, and the changing conditions of a city.
+            </p>
+            <div class="fact-row">
+              <div>
+                <span>Education</span>
+                <strong>BTech · IIT Gandhinagar</strong>
+              </div>
+              <div>
+                <span>Current role</span>
+                <strong>Full Stack Developer</strong>
+              </div>
+              <div>
+                <span>Core domain</span>
+                <strong>Urban resilience</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="panel content-panel work" data-chapter="03">
+        <div class="section-index reveal">02 / Selected focus</div>
+        <div class="work-heading">
+          <h2 class="section-title reveal">From city signals<br />to useful <em>decisions.</em></h2>
+          <p class="reveal">
+            Three connected areas define my work: understanding risk, reading mobility, and
+            delivering the software that turns both into action.
+          </p>
+        </div>
+
+        <div class="project-list">
+          <article class="project-card reveal" data-project="flood">
+            <div class="project-number">01</div>
+            <div class="project-body">
+              <p class="project-kicker">Prediction · Geospatial intelligence</p>
+              <h3>Urban flood intelligence</h3>
+              <p>
+                Technology for understanding flood risk and translating complex environmental
+                data into information people and city systems can use.
+              </p>
+              <ul class="project-tags" aria-label="Related skills">
+                <li>Python</li><li>GIS</li><li>FastAPI</li><li>Data visualization</li>
+              </ul>
+            </div>
+            <span class="project-arrow" aria-hidden="true">↗</span>
+          </article>
+
+          <article class="project-card reveal" data-project="mobility">
+            <div class="project-number">02</div>
+            <div class="project-body">
+              <p class="project-kicker">MIR Lab · Mobility platform</p>
+              <h3>Safer route intelligence</h3>
+              <p>
+                Work on a mobility platform combining flood-risk prediction and traffic data to
+                support safer, more efficient routes during extreme conditions.
+              </p>
+              <ul class="project-tags" aria-label="Related skills">
+                <li>Google Maps</li><li>Traffic data</li><li>React</li><li>Cloud</li>
+              </ul>
+            </div>
+            <span class="project-arrow" aria-hidden="true">↗</span>
+          </article>
+
+          <article class="project-card reveal" data-project="platform">
+            <div class="project-number">03</div>
+            <div class="project-body">
+              <p class="project-kicker">Web · APIs · Cloud</p>
+              <h3>Full-stack delivery</h3>
+              <p>
+                Responsive interfaces, service APIs, data stores, and cloud workflows designed
+                as one dependable product rather than disconnected technical pieces.
+              </p>
+              <ul class="project-tags" aria-label="Related skills">
+                <li>Next.js</li><li>Express</li><li>PostgreSQL</li><li>AWS</li>
+              </ul>
+            </div>
+            <span class="project-arrow" aria-hidden="true">↗</span>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="panel content-panel skills" data-chapter="04">
+        <div class="section-index reveal">03 / Technical constellation</div>
+        <div class="skills-layout">
+          <div class="skills-intro reveal">
+            <h2 class="section-title">A stack built for<br /><em>complete systems.</em></h2>
+            <p>
+              From data exploration and machine learning to product interfaces, APIs, databases,
+              deployment, and collaborative delivery.
+            </p>
+          </div>
+
+          <div class="skill-groups">
+            <article class="skill-group reveal">
+              <span class="skill-count">01</span>
+              <h3>Languages</h3>
+              <p>JavaScript · TypeScript · Python · Java · C++</p>
+            </article>
+            <article class="skill-group reveal">
+              <span class="skill-count">02</span>
+              <h3>Web engineering</h3>
+              <p>React · Next.js · HTML · CSS · Express · Flask · FastAPI</p>
+            </article>
+            <article class="skill-group reveal">
+              <span class="skill-count">03</span>
+              <h3>Data and AI</h3>
+              <p>NumPy · Pandas · Matplotlib · scikit-learn · PyTorch</p>
+            </article>
+            <article class="skill-group reveal">
+              <span class="skill-count">04</span>
+              <h3>Data stores</h3>
+              <p>MongoDB · PostgreSQL · MySQL · DynamoDB</p>
+            </article>
+            <article class="skill-group reveal">
+              <span class="skill-count">05</span>
+              <h3>Cloud and delivery</h3>
+              <p>AWS · Google Cloud · Firebase · Docker · GitHub Actions</p>
+            </article>
+            <article class="skill-group reveal">
+              <span class="skill-count">06</span>
+              <h3>Maps and design</h3>
+              <p>GIS · Google Maps · Figma · Canva · Postman · Jira</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="panel contact" data-chapter="05">
+        <div class="contact-inner reveal">
+          <p class="eyebrow"><span></span> Open to meaningful collaborations</p>
+          <h2>Let's build for the<br /><em>world outside.</em></h2>
+          <p>
+            If you're working on climate resilience, urban intelligence, mobility, or an ambitious
+            full-stack product, I'd be glad to hear about it.
+          </p>
+          <a class="contact-link" href="mailto:ravi.kumawat@iitgn.ac.in">
+            ravi.kumawat@iitgn.ac.in
+            <span aria-hidden="true">↗</span>
+          </a>
+          <div class="social-links" aria-label="Social links">
+            <a href="https://linkedin.com/in/ravi-kumawat-99300b256" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a>
+            <a href="https://github.com/ravi22110219" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+            <a href="https://youtube.com/@ravikumawat23" target="_blank" rel="noreferrer">YouTube <span>↗</span></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Designed as a living map of Ravi's work.</p>
+      <p>© <span id="year"></span> Ravi Kumawat</p>
+    </footer>
+
+    <noscript>
+      <div class="noscript-message">This portfolio still works without JavaScript; interactive 3D effects are simply disabled.</div>
+    </noscript>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

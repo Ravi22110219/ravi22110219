@@ -1,87 +1,51 @@
-# 💫 About Me
+<p align="center">
+  <img src="assets/profile-banner.svg" alt="Ravi Kumawat — Full-stack developer building intelligent systems for resilient cities" width="100%" />
+</p>
 
-I am **Ravi Kumawat**, a BTech graduate from IIT Gandhinagar and a Full Stack Developer working with **AIResQ Climsols Pvt. Ltd.**.
+<p align="center">
+  <a href="https://ravi22110219.github.io/ravi22110219/"><img src="https://img.shields.io/badge/3D_Portfolio-071014?style=for-the-badge&logo=githubpages&logoColor=B9FF66" alt="3D portfolio" /></a>
+  <a href="https://linkedin.com/in/ravi-kumawat-99300b256"><img src="https://img.shields.io/badge/LinkedIn-071014?style=for-the-badge&logo=linkedin&logoColor=73E8FF" alt="LinkedIn" /></a>
+  <a href="https://youtube.com/@ravikumawat23"><img src="https://img.shields.io/badge/YouTube-071014?style=for-the-badge&logo=youtube&logoColor=B9FF66" alt="YouTube" /></a>
+  <a href="mailto:ravi.kumawat@iitgn.ac.in"><img src="https://img.shields.io/badge/Email-071014?style=for-the-badge&logo=gmail&logoColor=FF8B65" alt="Email" /></a>
+</p>
 
-I build technology solutions focused on urban resilience, particularly in flood prediction, traffic analysis, and smart mobility systems.
+## About me
 
-I was working with **MIR Lab** on mobility, a platform that integrates flood risk prediction and traffic data to help users navigate safer and more efficient routes during extreme conditions.
+I am **Ravi Kumawat**, a BTech graduate from **IIT Gandhinagar** and a Full Stack Developer at **AIResQ Climsols Pvt. Ltd.**
 
+I build technology for urban resilience, with a focus on **flood prediction, traffic analysis, geospatial applications, and smart mobility systems**. I worked with **MIR Lab** on a mobility platform that brings flood-risk prediction and traffic data together to support safer, more efficient routes during extreme conditions.
 
----
+```text
+Current focus  →  Climate resilience · Mobility intelligence · Full-stack systems
+Approach       →  Model the problem · Build the platform · Make the result useful
+```
 
-# 🌐 Socials
+## Technology constellation
 
+| Area | Tools |
+|---|---|
+| Languages | JavaScript, TypeScript, Python, Java, C++ |
+| Frontend | React, Next.js, HTML5, CSS3 |
+| Backend | Express, Flask, FastAPI, REST APIs |
+| Data and AI | NumPy, Pandas, Matplotlib, scikit-learn, PyTorch |
+| Databases | MongoDB, PostgreSQL, MySQL, DynamoDB |
+| Cloud and delivery | AWS, Google Cloud, Firebase, Docker, GitHub Actions |
+| Maps and product | GIS, Google Maps, Figma, Postman, Jira |
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ravi-kumawat-99300b256)  
-[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://youtube.com/@ravikumawat23)  
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ravi.kumawat@iitgn.ac.in)
+## What I am building toward
 
----
+- Urban flood intelligence that turns complex environmental data into actionable information.
+- Mobility systems that combine risk and traffic signals for safer navigation.
+- Reliable full-stack products spanning responsive interfaces, APIs, data stores, and cloud delivery.
 
-# 💻 Tech Stack
+## GitHub activity
 
-### 👨‍💻 Programming
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=ravi22110219&show_icons=true&theme=transparent&hide_border=true&title_color=73E8FF&text_color=9FB3B7&icon_color=B9FF66" alt="Ravi's GitHub statistics" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ravi22110219&layout=compact&theme=transparent&hide_border=true&title_color=73E8FF&text_color=9FB3B7" alt="Ravi's most-used languages" />
+</p>
 
-### 🌐 Web Development
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
-
-### ⚙️ Backend & Cloud
-![Flask](https://img.shields.io/badge/flask-%23000000.svg?style=for-the-badge&logo=flask&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
-![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
-
-### 🗄️ Databases
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![Amazon DynamoDB](https://img.shields.io/badge/Amazon%20DynamoDB-4053D6?style=for-the-badge&logo=Amazon%20DynamoDB&logoColor=white)
-
-### 🗺️ Mapping & Visualization
-![Google Maps](https://img.shields.io/badge/Google%20Maps-%234285F4.svg?style=for-the-badge&logo=googlemaps&logoColor=white)
-![GIS](https://img.shields.io/badge/GIS-Geospatial-blue?style=for-the-badge)
-
-### 📊 Data Science & AI
-![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-white?style=for-the-badge&logo=Matplotlib&logoColor=black)
-![Scikit Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
-
-### 🎨 UI/UX Design
-![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
-![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
-
-### 🔧 Tools & DevOps
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white)
-
----
-
-# 📊 GitHub Stats
-
-![](https://github-readme-stats.vercel.app/api?username=ravi22110219&theme=dark&hide_border=false&include_all_commits=true&count_private=true)
-
-![](https://nirzak-streak-stats.vercel.app/?user=ravi22110219&theme=dark&hide_border=false)
-
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=ravi22110219&theme=dark&hide_border=false&layout=compact)
-
----
-
-[![](https://visitcount.itsvg.in/api?id=ravi22110219&icon=0&color=0)](https://visitcount.itsvg.in)
-
-<!-- Proudly created with GPRM -->
+<p align="center">
+  <strong>Have an idea in climate, mobility, AI, or full-stack product engineering?</strong><br />
+  <a href="mailto:ravi.kumawat@iitgn.ac.in">Let's start a conversation.</a>
+</p>
