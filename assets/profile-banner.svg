@@ -1,36 +1,46 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
   <title id="title">Ravi Kumawat</title>
-  <desc id="desc">Full-stack developer building intelligent systems for resilient cities</desc>
+  <desc id="desc">A three-dimensional digital city representing full-stack engineering and urban resilience</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#061014"/><stop offset="1" stop-color="#0b2228"/>
-    </linearGradient>
-    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
-      <stop stop-color="#73e8ff"/><stop offset="1" stop-color="#b9ff66"/>
-    </linearGradient>
-    <radialGradient id="glow">
-      <stop stop-color="#73e8ff" stop-opacity=".28"/><stop offset="1" stop-color="#73e8ff" stop-opacity="0"/>
-    </radialGradient>
-    <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
-    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
-      <path d="M36 0H0V36" fill="none" stroke="#73e8ff" stroke-opacity=".07"/>
-    </pattern>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#061014"/><stop offset=".58" stop-color="#0a1b20"/><stop offset="1" stop-color="#102c31"/></linearGradient>
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#73e8ff"/><stop offset="1" stop-color="#b9ff66"/></linearGradient>
+    <radialGradient id="core" cx="36%" cy="30%"><stop stop-color="#d8fbff"/><stop offset=".25" stop-color="#73e8ff"/><stop offset=".72" stop-color="#155969"/><stop offset="1" stop-color="#071014"/></radialGradient>
+    <linearGradient id="cubeTop" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#74e9ff" stop-opacity=".75"/><stop offset="1" stop-color="#2b7784" stop-opacity=".55"/></linearGradient>
+    <linearGradient id="cubeLeft" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#194852"/><stop offset="1" stop-color="#0b2228"/></linearGradient>
+    <linearGradient id="cubeRight" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#256673"/><stop offset="1" stop-color="#0e2d34"/></linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#73e8ff" stroke-opacity=".055"/></pattern>
+    <filter id="glow"><feGaussianBlur stdDeviation="12"/></filter>
+    <clipPath id="round"><rect width="1200" height="380" rx="28"/></clipPath>
   </defs>
-  <rect width="1200" height="330" rx="24" fill="url(#bg)"/>
-  <rect width="1200" height="330" rx="24" fill="url(#grid)"/>
-  <circle cx="955" cy="165" r="190" fill="url(#glow)" filter="url(#soft)"/>
-  <g fill="none" stroke="#73e8ff" stroke-opacity=".25">
-    <ellipse cx="970" cy="164" rx="172" ry="69" transform="rotate(-16 970 164)"/>
-    <ellipse cx="970" cy="164" rx="132" ry="150" transform="rotate(34 970 164)"/>
-    <path d="M746 257c53-65 84-114 146-107 66 7 88 75 176 56 47-10 75-45 113-91"/>
+  <g clip-path="url(#round)">
+    <rect width="1200" height="380" fill="url(#bg)"/><rect width="1200" height="380" fill="url(#grid)"/>
+    <ellipse cx="963" cy="203" rx="270" ry="150" fill="#73e8ff" opacity=".05" filter="url(#glow)"/>
+    <g opacity=".35" fill="none" stroke="#73e8ff"><path d="M0 324C193 244 287 359 456 287S738 176 922 239s222 28 303-21" stroke-opacity=".2"/><path d="M0 342C197 263 302 374 474 306S749 200 928 260s217 30 298-12" stroke-opacity=".13"/></g>
+    <g transform="translate(694 38)">
+      <path d="M25 239 250 109l250 128-228 132z" fill="#0a1c21" stroke="#73e8ff" stroke-opacity=".18"/>
+      <g stroke="#73e8ff" stroke-opacity=".1"><path d="m75 211 247 127M122 184l247 127M171 155l246 128M220 128l246 127"/><path d="M99 278 325 148M149 305l225-130M199 331l225-130M250 358l225-130"/></g>
+      <g transform="translate(97 178)"><path d="m0 19 32-18 32 17-32 19z" fill="url(#cubeTop)"/><path d="m0 19 32 18v44L0 63z" fill="url(#cubeLeft)"/><path d="m32 37 32-19v44L32 81z" fill="url(#cubeRight)"/></g>
+      <g transform="translate(351 189)"><path d="m0 19 32-18 32 17-32 19z" fill="url(#cubeTop)"/><path d="m0 19 32 18v61L0 80z" fill="url(#cubeLeft)"/><path d="m32 37 32-19v61L32 98z" fill="url(#cubeRight)"/></g>
+      <g transform="translate(178 221) scale(.72)"><path d="m0 19 32-18 32 17-32 19z" fill="url(#cubeTop)"/><path d="m0 19 32 18v38L0 57z" fill="url(#cubeLeft)"/><path d="m32 37 32-19v38L32 75z" fill="url(#cubeRight)"/></g>
+      <g transform="translate(406 245) scale(.58)"><path d="m0 19 32-18 32 17-32 19z" fill="#b9ff66" fill-opacity=".7"/><path d="m0 19 32 18v44L0 63z" fill="#29452b"/><path d="m32 37 32-19v44L32 81z" fill="#3d6536"/></g>
+      <g transform="translate(263 142)">
+        <circle r="73" fill="#73e8ff" opacity=".12" filter="url(#glow)"/><circle r="49" fill="url(#core)"/>
+        <ellipse rx="104" ry="37" fill="none" stroke="#73e8ff" stroke-opacity=".55" transform="rotate(-18)"><animateTransform attributeName="transform" type="rotate" from="-18" to="342" dur="16s" repeatCount="indefinite"/></ellipse>
+        <ellipse rx="75" ry="113" fill="none" stroke="#b9ff66" stroke-opacity=".28" transform="rotate(42)"><animateTransform attributeName="transform" type="rotate" from="42" to="-318" dur="22s" repeatCount="indefinite"/></ellipse>
+        <circle cx="-96" cy="30" r="6" fill="#b9ff66"/><circle cx="64" cy="-51" r="4" fill="#73e8ff"/>
+      </g>
+    </g>
+    <g transform="translate(70 70)">
+      <path d="M0 0h68" stroke="url(#signal)" stroke-width="3"/>
+      <text y="72" fill="#edf7f7" font-family="Arial, sans-serif" font-size="70" font-weight="700" letter-spacing="-3">Ravi Kumawat</text>
+      <text y="116" fill="#9fb3b7" font-family="monospace" font-size="17" letter-spacing="2.1">FULL-STACK DEVELOPER · URBAN RESILIENCE</text>
+      <text y="178" fill="#b9ff66" font-family="Arial, sans-serif" font-size="23">Building intelligent systems for safer cities.</text>
+      <g transform="translate(0 220)" font-family="monospace" font-size="12" letter-spacing="1.4">
+        <rect width="146" height="36" rx="18" fill="#73e8ff" fill-opacity=".08" stroke="#73e8ff" stroke-opacity=".3"/><text x="22" y="23" fill="#73e8ff">AI × GIS × WEB</text>
+        <rect x="160" width="160" height="36" rx="18" fill="#b9ff66" fill-opacity=".07" stroke="#b9ff66" stroke-opacity=".27"/><text x="180" y="23" fill="#b9ff66">FLOOD × MOBILITY</text>
+      </g>
+    </g>
   </g>
-  <g fill="#b9ff66">
-    <circle cx="808" cy="196" r="5"/><circle cx="1006" cy="50" r="4"/><circle cx="1111" cy="174" r="5"/>
-  </g>
-  <path d="M70 71h62" stroke="url(#signal)" stroke-width="3"/>
-  <text x="70" y="154" fill="#edf7f7" font-family="Arial, sans-serif" font-size="72" font-weight="700" letter-spacing="-3">Ravi Kumawat</text>
-  <text x="73" y="199" fill="#9fb3b7" font-family="monospace" font-size="18" letter-spacing="2">FULL-STACK DEVELOPER · URBAN RESILIENCE</text>
-  <text x="73" y="251" fill="#b9ff66" font-family="Arial, sans-serif" font-size="22">Building intelligent systems for safer cities.</text>
-  <rect x="1" y="1" width="1198" height="328" rx="23" fill="none" stroke="#73e8ff" stroke-opacity=".16" stroke-width="2"/>
+  <rect x="1" y="1" width="1198" height="378" rx="27" fill="none" stroke="#73e8ff" stroke-opacity=".17" stroke-width="2"/>
 </svg>
 
