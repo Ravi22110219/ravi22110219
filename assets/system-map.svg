@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
-  <title id="title">Ravi Kumawat technology system map</title><desc id="desc">A three-dimensional orbital map connecting frontend, backend, data and AI, cloud, and geospatial technologies</desc>
+  <title id="title">Er Ravi Kumawat technology system map</title><desc id="desc">A three-dimensional orbital map connecting frontend, backend, data and AI, cloud, and geospatial technologies</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071115"/><stop offset="1" stop-color="#0c242a"/></linearGradient>
     <radialGradient id="sphere" cx="32%" cy="27%"><stop stop-color="#edffff"/><stop offset=".18" stop-color="#73e8ff"/><stop offset=".62" stop-color="#176578"/><stop offset="1" stop-color="#071014"/></radialGradient>
@@ -8,9 +8,14 @@
   </defs>
   <rect width="1200" height="430" rx="24" fill="url(#bg)"/><rect width="1200" height="430" rx="24" fill="url(#grid)"/>
   <ellipse cx="600" cy="225" rx="210" ry="105" fill="#73e8ff" opacity=".07" filter="url(#blur)"/>
-  <g fill="none"><ellipse cx="600" cy="220" rx="435" ry="145" stroke="#73e8ff" stroke-opacity=".2" transform="rotate(-5 600 220)"/><ellipse cx="600" cy="220" rx="340" ry="187" stroke="#b9ff66" stroke-opacity=".13" transform="rotate(7 600 220)"/><ellipse cx="600" cy="220" rx="138" ry="198" stroke="#73e8ff" stroke-opacity=".2" transform="rotate(49 600 220)"/><path d="M156 209h888" stroke="url(#line)" stroke-opacity=".22"/></g>
+  <g fill="none">
+    <ellipse cx="600" cy="220" rx="435" ry="145" stroke="#73e8ff" stroke-opacity=".2" transform="rotate(-5 600 220)"><animateTransform attributeName="transform" type="rotate" from="-5 600 220" to="355 600 220" dur="48s" repeatCount="indefinite"/></ellipse>
+    <ellipse cx="600" cy="220" rx="340" ry="187" stroke="#b9ff66" stroke-opacity=".13" transform="rotate(7 600 220)"><animateTransform attributeName="transform" type="rotate" from="7 600 220" to="-353 600 220" dur="58s" repeatCount="indefinite"/></ellipse>
+    <ellipse cx="600" cy="220" rx="138" ry="198" stroke="#73e8ff" stroke-opacity=".2" transform="rotate(49 600 220)"><animateTransform attributeName="transform" type="rotate" from="49 600 220" to="409 600 220" dur="38s" repeatCount="indefinite"/></ellipse>
+    <path d="M156 209h888" stroke="url(#line)" stroke-opacity=".22"/>
+  </g>
   <g font-family="monospace" text-anchor="middle">
-    <g transform="translate(600 220)"><circle r="93" fill="#73e8ff" opacity=".12" filter="url(#blur)"/><circle r="70" fill="url(#sphere)"/><circle r="72" fill="none" stroke="#dffcff" stroke-opacity=".28"/><text y="-4" fill="#061014" font-size="22" font-weight="700" letter-spacing="2">RAVI</text><text y="20" fill="#0c3b44" font-size="10" letter-spacing="1.6">FULL STACK</text></g>
+    <g transform="translate(600 220)"><circle r="93" fill="#73e8ff" opacity=".12" filter="url(#blur)"><animate attributeName="opacity" values=".07;.2;.07" dur="3.2s" repeatCount="indefinite"/></circle><circle r="70" fill="url(#sphere)"/><circle r="72" fill="none" stroke="#dffcff" stroke-opacity=".28"/><text y="-4" fill="#061014" font-size="22" font-weight="700" letter-spacing="2">RAVI</text><text y="20" fill="#0c3b44" font-size="9" letter-spacing="1.4">SOFTWARE ENGINEER</text></g>
     <g transform="translate(185 155)"><path d="m0 0 36-19 36 19-36 20z" fill="#73e8ff" fill-opacity=".48"/><path d="m0 0 36 20v38L0 38z" fill="#12343c"/><path d="m36 20 36-20v38L36 58z" fill="#1e5360"/><text x="36" y="91" fill="#edf7f7" font-size="14" letter-spacing="1.5">FRONTEND</text><text x="36" y="113" fill="#8ea8ad" font-size="10">REACT · NEXT.JS</text></g>
     <g transform="translate(935 132)"><path d="m0 0 36-19 36 19-36 20z" fill="#b9ff66" fill-opacity=".58"/><path d="m0 0 36 20v38L0 38z" fill="#263d2a"/><path d="m36 20 36-20v38L36 58z" fill="#3b5c3d"/><text x="36" y="91" fill="#edf7f7" font-size="14" letter-spacing="1.5">BACKEND</text><text x="36" y="113" fill="#8ea8ad" font-size="10">FASTAPI · EXPRESS</text></g>
     <g transform="translate(310 304)"><circle cx="36" r="34" fill="#0d2930" stroke="#73e8ff" stroke-opacity=".48"/><circle cx="25" cy="-11" r="8" fill="#73e8ff" opacity=".75"/><circle cx="49" cy="8" r="6" fill="#b9ff66" opacity=".78"/><path d="M25-11 49 8m-24-19 1 30M49 8l-23 11" stroke="#dffcff" stroke-opacity=".5"/><text x="36" y="65" fill="#edf7f7" font-size="14" letter-spacing="1.5">DATA + AI</text><text x="36" y="87" fill="#8ea8ad" font-size="10">PYTORCH · PANDAS</text></g>

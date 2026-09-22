@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="title desc">
-  <title id="title">Ravi Kumawat</title>
-  <desc id="desc">A three-dimensional digital city representing full-stack engineering and urban resilience</desc>
+  <title id="title">Er Ravi Kumawat</title>
+  <desc id="desc">A three-dimensional digital city representing software engineering and urban resilience</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#061014"/><stop offset=".58" stop-color="#0a1b20"/><stop offset="1" stop-color="#102c31"/></linearGradient>
     <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#73e8ff"/><stop offset="1" stop-color="#b9ff66"/></linearGradient>
@@ -32,8 +32,8 @@
     </g>
     <g transform="translate(70 70)">
       <path d="M0 0h68" stroke="url(#signal)" stroke-width="3"/>
-      <text y="72" fill="#edf7f7" font-family="Arial, sans-serif" font-size="70" font-weight="700" letter-spacing="-3">Ravi Kumawat</text>
-      <text y="116" fill="#9fb3b7" font-family="monospace" font-size="17" letter-spacing="2.1">FULL-STACK DEVELOPER · URBAN RESILIENCE</text>
+      <text y="72" fill="#edf7f7" font-family="Arial, sans-serif" font-size="66" font-weight="700" letter-spacing="-3">Er Ravi Kumawat</text>
+      <text y="116" fill="#9fb3b7" font-family="monospace" font-size="17" letter-spacing="2.1">SOFTWARE ENGINEER · URBAN RESILIENCE</text>
       <text y="178" fill="#b9ff66" font-family="Arial, sans-serif" font-size="23">Building intelligent systems for safer cities.</text>
       <g transform="translate(0 220)" font-family="monospace" font-size="12" letter-spacing="1.4">
         <rect width="146" height="36" rx="18" fill="#73e8ff" fill-opacity=".08" stroke="#73e8ff" stroke-opacity=".3"/><text x="22" y="23" fill="#73e8ff">AI × GIS × WEB</text>
@@ -43,4 +43,3 @@
   </g>
   <rect x="1" y="1" width="1198" height="378" rx="27" fill="none" stroke="#73e8ff" stroke-opacity=".17" stroke-width="2"/>
 </svg>
-
